@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Emoji</title>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</head>
+<body>
+    <center>
+        <h1>Emojis</h1>
+        <h2 class="Abajo">Usa tu computadora para reconocer emojis como estos:</h2>
+        <h5 class="Arriba">
+            <span>&#9757;</span>
+            <span>&#9994;</span>
+            <span>&#9995;</span>
+            <span>&#128077;</span>
+            <span>&#128078;</span>
+            <span>&#128072;</span>
+            <span>&#128080;</span>
+            <span>&#129307;</span>
+            <span>&#9997;</span>
+            <span>&#128076;</span>
+    </h5>
+    <br>
+    <div id="uno">
+    <div class="C" id="Camara"></div>
+    <br>
+    <br>
+    <button id="Foto" class="B" onclick="foto()">Foto</button>
+    </div>
+    <br>
+    <br>
+    <div id="dos">
+        <div class="C" id="Imagen"></div>
+        <br>
+        <br>
+        <button id="reconocer" class="B" onclick="Reconocer()">reconocer</button>
+    </div>
+    <h3>Prediccion 1:</h3>
+    <h3 id="P1">Mano con lapiz</h3>
+    <h3>Prediccion 2:</h3>
+    <h3 id="P2">Mano sin lapiz:</h3>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>

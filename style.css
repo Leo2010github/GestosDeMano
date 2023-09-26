@@ -1,0 +1,49 @@
+h5{
+    font-size: 50px;
+}
+.Abajo{
+    margin-bottom: 10px;
+}
+.Arriba{
+    margin-top: 10px;
+}
+.B{
+    background-color: blue;
+    color: rgb(145, 255, 0);
+    font-weight: 900;
+    font-size: 50px;
+    padding: 5px;
+}
+.C{
+    background-color: darkkhaki;
+    width: 250px;
+    height: 250px;
+}
+#dos{
+    margin-top:-411px;
+    margin-left: 600px;
+}
+#uno{
+    margin-left: -600px;;
+}
+#P1{
+    background-color: yellow;
+    width: 200px;
+    color: black;
+}
+#P2{
+    background-color: red;
+    width: 200px;
+    color: black;
+}
+body{
+    background: url("g.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+#ju{
+    height: 200px;
+    width: 250px;
+    margin-top: 25px;
+}
